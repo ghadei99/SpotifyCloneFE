@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.player {
+    /* z-index: 9; */
+    /* position: fixed; */
+}
+.player-fix{
+    display: block;
+    width: 90%;
+    bottom: 5px;;
+    z-index: 5;
+    position: fixed;
+}
+
+.first{
+    height: 80vh;
+    /* border: 5px solid black; */
+
+}
+@media only screen and (max-width: 480px) {
+    .player{
+        margin-top: 100%;
+    }
+}
